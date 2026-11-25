@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sizzle &amp; Serve — the lunch-rush cooking game</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #2e2118;
+    min-height: 100%;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  canvas {
+    display: block;
+    width: min(1280px, 100vw);
+    height: auto;
+    image-rendering: auto;
+  }
+</style>
+</head>
+<body>
+<noscript>Sizzle &amp; Serve needs JavaScript to run the kitchen.</noscript>
+<canvas id="game" width="1280" height="720"></canvas>
+<script src="src/config.js"></script>
+<script src="src/random.js"></script>
+<script src="src/audio.js"></script>
+<script src="src/orders.js"></script>
+<script src="src/stations.js"></script>
+<script src="src/input.js"></script>
+<script src="src/render.js"></script>
+<script src="src/game.js"></script>
+<script src="src/shots.js"></script>
+<script src="src/main.js"></script>
+</body>
+</html>
